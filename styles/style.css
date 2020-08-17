@@ -19,7 +19,83 @@ body {
     background: #081E76;
 }
 
+.navbar-menu {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.navbar-menu a {
+    color: #FFFEFE;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.navbar-menu li {
+    display: inline;
+}
+
+.navbar-menu a:hover {
+    color: #FF61FF
+}
+
 .mail {
-    padding-left: 12px;
-    padding-top: 31px;
+    padding-top: 5px;
+}
+
+.header {
+    width: 1440px;
+    height: 918px;
+    background: #2612F1;
+}
+
+.header-img {
+    width: 951px;
+    height: 283px;
+    padding-left: 218px;
+    padding-top: 222px;
+}
+
+.header-text {
+    display: block;
+    padding-left: 255px;
+    padding-top: 266px;
+    padding-right: 308px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFCFF;
+}
+
+.button {
+    display: block;
+    width: 319px;
+    height: 91px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #F9E9C1 0%, #FFA354 73.63%);
+    margin-top: 100px;
+    margin-left: 535px;
+    text-align: center;
+    padding: 31px 0;
+    color: #2612F1;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.button:hover {
+    background: linear-gradient(180deg, #f9c1c1 0%, #ff5468 73.63%);
 }
